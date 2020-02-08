@@ -1,0 +1,5 @@
+CREATE TABLE `sq_roman_1l`.`języki` (
+  `języki_id` INT NOT NULL,
+  `język` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`języki_id`),
+  UNIQUE INDEX `języki_id_UNIQUE` (`języki_id` ASC) VISIBLE);

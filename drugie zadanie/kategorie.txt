@@ -1,0 +1,5 @@
+CREATE TABLE `sq_roman_1l`.`kategorie` (
+  `kategorie_id` INT NOT NULL,
+  `nazwa_kategorii` VARCHAR(45) NULL,
+  PRIMARY KEY (`kategorie_id`),
+  UNIQUE INDEX `kategorie_id_UNIQUE` (`kategorie_id` ASC) VISIBLE);

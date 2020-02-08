@@ -1,0 +1,11 @@
+CREATE TABLE `sq_roman_1l`.`informacje` (
+  `id` INT NOT NULL,
+  `jezyk` VARCHAR(45) NOT NULL,
+  `ilosc_zajec` INT NOT NULL,
+  `id_kategoria` INT NULL,
+  `dostepne_poziomy` VARCHAR(45) NULL,
+  `kategoria_kursu` VARCHAR(45) NULL,
+  `data_rozpoczecia_i_zakonczenia` DATETIME NULL,
+  `id_poziomu` INT NULL,
+  `id_jezyka` INT NULL,
+  PRIMARY KEY (`id`));

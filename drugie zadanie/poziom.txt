@@ -1,0 +1,6 @@
+CREATE TABLE `sq_roman_1l`.`poziom` (
+  `poziom_id` INT NOT NULL,
+  `poziom` VARCHAR(45) NOT NULL,
+  `opis` VARCHAR(80) NOT NULL,
+  PRIMARY KEY (`poziom_id`),
+  UNIQUE INDEX `poziom_id_UNIQUE` (`poziom_id` ASC) VISIBLE);
